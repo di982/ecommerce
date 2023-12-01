@@ -410,11 +410,9 @@ img {
 <h3 style="text-align:center; color:#3E454C;">{{word}}</h3>
 <br>
 
-<!-- products data starttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
   <div class="row">
 
       {% for p in products %}
-      <!-- card1 -->
       <div class="column">
       <div class="container page-wrapper" style="width: 450px;">
         <div class="page-inner">
@@ -448,7 +446,6 @@ img {
         </div>
       </div>
       </div>
-<!-- card1 end -->
 {% if forloop.counter|divisibleby:"3" %}
     </div>
 
@@ -458,7 +455,6 @@ img {
 {% endif %}
   {% endfor %}
 </div>
-<!-- products data enddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
 {%else%}
 <h3 style="text-align:center; color:#3E454C;">No Search Found</h3>
 {%endif%}
@@ -474,8 +470,5 @@ img {
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-<!--
-developed By : sumit kumar
--->
 
 {% endblock content %}
